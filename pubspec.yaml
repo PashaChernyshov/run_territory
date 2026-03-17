@@ -1,0 +1,22 @@
+name: map_nowoe
+description: Map Nowoe Flutter web app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  http: ^1.2.2
+  maplibre_gl: ^0.23.0
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
